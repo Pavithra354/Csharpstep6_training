@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>RestaurantDelegate_Void_Example.ExecuteRestaurant</StartupObject>
+    <StartupObject>InterviewDelegatesDemo.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -47,8 +47,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Deligates\Anonymous.cs" />
+    <Compile Include="Deligates\Anonymouswithlambda.cs" />
+    <Compile Include="Deligates\anonymouswithreturntolambda.cs" />
     <Compile Include="Deligates\Delegateswithvoid.cs" />
     <Compile Include="Deligates\Deligateswithreturn.cs" />
+    <Compile Include="Deligates\LambdawithActionDelegate.cs" />
+    <Compile Include="Deligates\LamdawithFuncDelegate.cs" />
+    <Compile Include="Deligates\PredicatewithLambda.cs" />
+    <Compile Include="Deligates\using3Delegates.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
